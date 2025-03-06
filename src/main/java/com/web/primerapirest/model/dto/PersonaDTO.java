@@ -1,0 +1,47 @@
+package com.web.primerapirest.model.dto;
+
+public class PersonaDTO {
+
+    private String idpersona;
+    private String nombre;
+    private String apellido;
+    private  String correo;
+
+    public PersonaDTO() {
+    }
+
+    public String getIdpersona() {
+        return idpersona;
+    }
+
+    public void setIdpersona(String idpersona) {
+        this.idpersona = idpersona;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+
+
+
+}
